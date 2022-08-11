@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title >About</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <link th:href="@{img/favicon.ico}" th:rel="icon">
+
+    <link th:href="@{https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;500;600&display=swap}" th:rel="stylesheet">
+
+    <link th:href="@{https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css}" th:rel="stylesheet">
+
+    <link th:href="@{../lib/flaticon/font/flaticon.css}" th:rel="stylesheet">
+
+    <link th:href="@{../lib/owlcarousel/assets/owl.carousel.min.css}" th:rel="stylesheet">
+
+    <link th:href="@{../lib/lightbox/css/lightbox.min.css}" th:rel="stylesheet">
+
+    <link th:href="@{../css/style.css}" th:rel="stylesheet">
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js"></script>
+
+    <style>
+        .btnF {
+          background-color: DodgerBlue;
+          border: none;
+          color: white;
+          padding: 12px 16px;
+          font-size: 16px;
+          cursor: pointer;
+        }
+
+        /* Darker background on mouse-over */
+        .btnF:hover {
+          background-color: RoyalBlue;
+        }
+
+        .btnG {
+          background-color: rgb(225, 9, 60);
+          border: none;
+          color: white;
+          padding: 12px 16px;
+          font-size: 16px;
+          cursor: pointer;
+        }
+
+        /* Darker background on mouse-over */
+        .btnG:hover {
+          background-color: RoyalBlue;
+        }
+        </style>
+</head>
+<body>
+
+<div class="container-fluid bg-dark py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+
+                </div>
+            </div>
+            <div class="col-md-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-white px-3" href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="text-white px-3" href="">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="text-white px-3" href="">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="text-white px-3" href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="text-white pl-3" href="">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+    <a href="/Home" class="navbar-brand">
+        <div class="text-left">
+            <img src="../img/car12.png" style="width:230px;height:115px" alt="">
+        </div>
+    </a>
+
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+        <div class="navbar-nav ml-auto py-0">
+            <a href="/Home" class="nav-item nav-link">Home</a>
+
+            <a href="#" class="nav-item nav-link active">About</a>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Login/Register</a>
+                <div class="dropdown-menu rounded-0 m-0">
+                    <a href="/Home/Login" class="dropdown-item">Login</a>
+                    <a href="/Home/Register" class="dropdown-item">Register</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="container">
+        <div class="row justify-content-center">
+
+            <div class="col-lg-6 py-3">
+                <div class="subhead">About Us</div>
+                <h2 class="title-section">We are <span class="fg-primary">Professional Teams</span> to Growth your Business</h2>
+
+                <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of</p>
+            </div>
+            <div class="col-lg-6 py-3">
+                <div class="about-img">
+                    <img src="../img/img6.jpg" style="width:480px;height:350px" alt="">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<br>
+<div class="container-fluid bg-dark text-white py-5 px-sm-3 px-md-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-primary mb-4">Get In Touch</h4>
+
+            <p><i class="fa fa-map-marker-alt mr-2"></i>Block B<br>
+                Infinity Business Park
+                <br>4 Pieter Wenning Road
+                <br>Fourways
+                2191</p>
+            <p><i class="fa fa-phone-alt mr-2"></i>Office Tel: 0110231995</p>
+            <p><i class="fa fa-envelope mr-2"></i>Email: <a href="info@hosi.co.za">info@hosi.co.za</a></p>
+
+            <div class="d-flex justify-content-start mt-4">
+                <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-primary mb-4">Quick Links</h4>
+            <div class="d-flex flex-column justify-content-start">
+                <a class="text-white mb-2" href="/Home"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+
+                <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-5">
+            <h4 class="text-primary mb-4">Our Location</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.5699876535177!2d28.117941814261318!3d-26.178130469269803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95120390cf1707%3A0x8662a90eb77d908e!2sHosi%20Technologies!5e0!3m2!1sen!2sza!4v1649712453562!5m2!1sen!2sza" width="310" height="140" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <div class="text-left">
+
+        <button type="button" class="btn btn-lg btn-primary rounded" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><i class="far fa-comment-alt"></i> Chat</button>
+    </div>
+    <div class="container border-top border-secondary pt-5">
+        <p class="m-0 text-center text-white">
+            &copy; <a class="text-white font-weight-bold" href="#">CarWash </a><script type="text/javascript">
+                      document.write(new Date().getFullYear());
+                 </script>. All Rights Reserved.
+        </p>
+    </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Recipient:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-lg btn-primary rounded" data-dismiss="modal">Close Chat</button>
+                <button type="button" class="btn btn-lg btn-primary rounded">Send <i class="far fa-paper-plane"> </i></button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+
+<script th:src="@{https://code.jquery.com/jquery-3.4.1.min.js}"></script>
+<script th:src="@{https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js}"></script>
+<script th:src="@{../lib/easing/easing.min.js}"></script>
+<script th:src="@{../lib/owlcarousel/owl.carousel.min.js}"></script>
+<script th:src="@{../lib/isotope/isotope.pkgd.min.js}"></script>
+<script th:src="@{../lib/lightbox/js/lightbox.min.js}"></script>
+<script th:src="@{../js/main.js}"></script>
+</body>
+
+</html>

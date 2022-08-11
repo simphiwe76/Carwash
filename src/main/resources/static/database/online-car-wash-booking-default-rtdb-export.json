@@ -1,0 +1,845 @@
+{
+  "Car": {
+    "KLP 540 L": {
+      "Color": "Red",
+      "Make": "Ranger",
+      "Model": "Wild track Double Cab 3.0",
+      "Registration": "KLP 540 L",
+      "Year": 2010
+    },
+    "PV 05 PL GP": {
+      "Color": "Blue",
+      "Make": "Toyota",
+      "Model": "Land Cruiser 79 4.5D V8",
+      "Registration": "Hosi GP",
+      "Year": 2022
+    },
+    "PVK 626 L": {
+      "Color": "White",
+      "Make": "Toyota",
+      "Model": "Hilux Raider Single Cab 2.6",
+      "Registration": "PVK 626 L",
+      "Year": 2021
+    },
+    "XPD 931 ZN": {
+      "Color": "Grey",
+      "Make": "Volvo",
+      "Model": "XC 40 r-design D",
+      "Registration": "XPD 931 ZN",
+      "Year": 2022
+    }
+  },
+  "Company": {
+    "ACO001": {
+      "Category": {
+        "Big Car": {
+          "Full Valet": "R250",
+          "Interior Cleaning": "R150",
+          "Mini Valet": "R200"
+        },
+        "Small Car": {
+          "Full Valet": "R200",
+          "Interior Cleaning": "R120",
+          "Mini Valet": "R150"
+        }
+      },
+      "Company Name": "Cleaning Ones",
+      "Email": "cleaning.ones@carwash.co.za",
+      "Location": "Randburg",
+      "Slot": "SLT01"
+    },
+    "ACO002": {
+      "Category": {
+        "Big Car": {
+          "Full Valet": "R500",
+          "Interior Cleaning": "R300",
+          "Mini Valet": "R400"
+        },
+        "Small Car": {
+          "Full Valet": "R400",
+          "Interior Cleaning": "R250",
+          "Mini Valet": "R300"
+        }
+      },
+      "Company Name": "Car Bath",
+      "Email": "car.bath@carwash.co.za",
+      "Location": "Sandton",
+      "Slot": "SLOT02"
+    },
+    "ACO003": {
+      "Category": {
+        "Big Car": {
+          "Full Valet": "R400",
+          "Interior Cleaning": "R270",
+          "Mini Valet": "R320"
+        },
+        "Small Car": {
+          "Full Valet": "R300",
+          "Interior Cleaning": "R200",
+          "Mini Valet": "R250"
+        }
+      },
+      "Company Name": "Deep Clean",
+      "Email": "deep.clean@carwash.co.za",
+      "Location": "Fourways",
+      "Slot": "SLOT03"
+    },
+    "ACO004": {
+      "Category": {
+        "Big Car": {
+          " Mini Valet": "R200",
+          "Full Valet": "Not Available",
+          "Interior Cleaning": "R120"
+        },
+        "Small Car": {
+          "Full Valet": "Not Available",
+          "Interior Cleaning": "R100",
+          "Mini Valet": "R150"
+        }
+      },
+      "Company Name": "Mister Car Wash",
+      "Email": "mistercarwash@carwash.co.za",
+      "Location": "Alex",
+      "Slot": "SLT03"
+    },
+    "ACO005": {
+      "Category": {
+        "Big Car": {
+          "Full Valet": "R200",
+          "Interior Cleaning": "R100",
+          "Mini Valet": 150
+        },
+        "Small Car": {
+          "Full Valet": "R175",
+          "Interior Cleaning": "R60",
+          "Mini Valet": "R100"
+        }
+      },
+      "Company Name": "Quick Clean",
+      "Email": "quickclean@carwash.co.za",
+      "Location": "Tembisa",
+      "Slot": "SLT04"
+    },
+    "OCA001": {
+      "Category": {
+        "Big Car": {
+          "Full Valet": "R300",
+          "Interior Cleaning": "R200",
+          "Mini Valet": "R250"
+        },
+        "Small Car": {
+          "Full Valet": "R250",
+          "Interior Cleaning": "R70",
+          "Mini Valet": "R170"
+        }
+      },
+      "Company Name": "Thee Car Wash",
+      "Email": "thee@carwash.co.za",
+      "Location": "Waterkloof",
+      "Slot": "SLT01"
+    },
+    "OCA002": {
+      "Category": {
+        "Big Car": {
+          "Full Valet": "R320",
+          "Interior Cleaning": "R150",
+          "Mini Valet": "R240"
+        },
+        "Small Car": {
+          "Full Valet": "R280",
+          "Interior Cleaning": "R110",
+          "Mini Valet": "R190"
+        }
+      },
+      "Company Name": "Touchless Wash",
+      "Email": "touchlesswash@carwash.co.za",
+      "Location": "Pretoria West",
+      "Slot": "SLT02"
+    },
+    "OCA003": {
+      "Categorty": {
+        "Big Car": {
+          "Full Valet": "R200",
+          "Interior Cleaning": "R90",
+          "Mini Valet": "R150"
+        },
+        "Small Car": {
+          "Full Valet": "R180",
+          "Interior Cleaning": "R70",
+          "Mini Valet": "R120"
+        }
+      },
+      "Company Name": "Touch Of Shine",
+      "Email": "touchofshine@carwash.co.za",
+      "Location": "Silverton",
+      "Slot": "SLT04"
+    }
+  },
+  "Customer": {
+    "User": {
+      "Bnxxv1Qp5cfbjBEzbnABdXKNYR73": {
+        "CustomerID": "Bnxxv1Qp5cfbjBEzbnABdXKNYR73",
+        "Email": "sipho@gmail.com",
+        "Gender": "Female",
+        "Name": "zama",
+        "Password": "Simphiwe76@",
+        "Surname": "Mthethwa"
+      },
+      "Cust01": {
+        " CustomerID": "Cust01",
+        "Car": {
+          "PV 05 PL GP": {
+            "Color": "Brown",
+            "CustomerID": "Cust01",
+            "Make": "Toyota",
+            "Model": "Land Cruiser 79 4.5D V8",
+            "Registration": "PV 05 PL GP",
+            "Year": 2022
+          }
+        },
+        "Email": "pep@gmail.com",
+        "Gender": "Male",
+        "Name": "Pep",
+        "Password": 12345,
+        "Surname": "Guardiola"
+      },
+      "Cust02": {
+        "Car": {
+          "XPD 931 ZN": {
+            "Color": "Grey",
+            "CustomerID": "Cust02",
+            "Make": "Volvo",
+            "Model": "XC-40 r-design D",
+            "Registration": "XPD 931 ZN",
+            "Year": 2021
+          }
+        },
+        "CustomerID": "Cust02",
+        "Email": "mathabatha@gmail.com",
+        "Gender": "Male",
+        "Name": "John",
+        "Password": 12345,
+        "Surname": "Mathabatha"
+      },
+      "JXB20kdO8CMQeuBd7dywMgQVGmn1": {
+        "Car": {
+          "KLP 540 L": {
+            "Color": "Red",
+            "CustomerID": "JXB20kdO8CMQeuBd7dywMgQVGmn1",
+            "Make": "Ranger",
+            "Model": "Wild track Double Cab 3.0",
+            "Registration": "KLP 540 L",
+            "Year": 2010
+          }
+        },
+        "CustomerID": "JXB20kdO8CMQeuBd7dywMgQVGmn1",
+        "Email": "simphiwemthanti76@gmail.com",
+        "Gender": "Male",
+        "Name": "Simphiwe",
+        "Password": "Simphiwe76@",
+        "Surname": "Mthanti",
+        "last_login": "2022-04-28T17:54:22.532Z"
+      }
+    }
+  },
+  "Slot": {
+    "SLT01": {
+      "Friday": {
+        "07h00 - 08h00": {
+          "Slot": "Available"
+        },
+        "08h05 - 09h05": {
+          "Slot": "Available"
+        },
+        "09h10 - 10h10": {
+          "Slot": "Available"
+        },
+        "10h15 - 11h15": {
+          "Slot": "Available"
+        },
+        "11h20 - 12h20": {
+          "Slot": "Available"
+        },
+        "12h25 - 13h25": {
+          "Slot": "Available"
+        },
+        "13h30 - 14h30": {
+          "Slot": "Available"
+        }
+      },
+      "Monday": {
+        "07:00 - 08:00": {
+          "Slot": "Available"
+        },
+        "08:05 - 09:05": {
+          "Slot": "Available"
+        },
+        "09:10 - 10:10": {
+          "Slot": "Available"
+        },
+        "10:15 - 11:15": {
+          "Slot": "Available"
+        },
+        "11:20 - 12:20": {
+          "Slot": "Available"
+        },
+        "12:25 - 13:25": {
+          "Slot": "Not Available"
+        },
+        "13:30 - 14:30": {
+          "Slot": "Available"
+        },
+        "14:35 - 15:35": {
+          "Slot": "Available"
+        },
+        "15:40 - 16:40": {
+          "Slot": "Available"
+        },
+        "16:45 - 17:45": {
+          "Slot": "Available"
+        },
+        "17:50 - 18:50": {
+          "Slot": "Available"
+        }
+      },
+      "Saturday": {
+        "07h00 - 08h00": {
+          "Slot": "Available"
+        },
+        "08h05 - 09h05": {
+          "Slot": "Available"
+        },
+        "09h10 - 10h10": {
+          "Slot": "Available"
+        },
+        "10h15 - 11h15": {
+          "Slot": "Available"
+        },
+        "11h20 - 12h20": {
+          "Slot": "Available"
+        },
+        "12h25 - 13h25": {
+          "Slot": "Available"
+        },
+        "13h30 - 14h30": {
+          "Slot": "Available"
+        }
+      },
+      "Thursday": {
+        "07h00 - 08h00": {
+          "Slot": "Available"
+        },
+        "08h05 - 09h05": {
+          "Slot": "Available"
+        },
+        "09h10 - 10h10": {
+          "Slot": "Available"
+        },
+        "10h15 - 11h15": {
+          "Slot": "Available"
+        },
+        "11h20 - 12h20": {
+          "Slot": "Available"
+        },
+        "12h25 - 13h25": {
+          "Slot": "Not Available"
+        },
+        "13h30 - 14h30": {
+          "Slot": "Available"
+        },
+        "14h35 - 15h35": {
+          "Slot": "Available"
+        },
+        "15h40 - 16h40": {
+          "Slot": "Available"
+        },
+        "16h45 - 17h45": {
+          "Slot": "Available"
+        },
+        "17h50 - 18h50": {
+          "Slot": "Available"
+        }
+      },
+      "Tuesday": {
+        "07:00 - 08:00": {
+          "Slot": "Available"
+        },
+        "08:05 - 09:05": {
+          "Slot": "Available"
+        },
+        "09:10 - 10:10": {
+          "Slot": "Available"
+        },
+        "10:15 - 11:15": {
+          "Slot": "Available"
+        },
+        "11:20 - 12:20": {
+          "Slot": "Available"
+        },
+        "12:25 - 13:25": {
+          "Slot": "Not Available"
+        },
+        "13:30 - 14:30": {
+          "Slot": "Available"
+        },
+        "14:35 - 15:35": {
+          "Slot": "Available"
+        },
+        "15:40 - 16:40": {
+          "Slot": "Available"
+        },
+        "16:45 - 17:45": {
+          "Slot": "Available"
+        },
+        "17:50 - 18:50": {
+          "Slot": "Available"
+        }
+      },
+      "Wednesday": {
+        "07h00 - 08h00": {
+          "Slot": "Available"
+        },
+        "08h05 - 09h05": {
+          "Slot": "Available"
+        },
+        "09h10 - 11h10": {
+          "Slot": "Available"
+        },
+        "10h15 - 11h15": {
+          "Slot": "Available"
+        },
+        "11h20 - 12h20": {
+          "Slot": "Available"
+        },
+        "12h25 - 13h25": {
+          "Slot": "Not Available"
+        },
+        "13h30 - 14h30": {
+          "Slot": "Available"
+        },
+        "14h35 - 15h35": {
+          "Slot": "Available"
+        },
+        "15h40 - 16h40": {
+          "Slot": "Available"
+        },
+        "16h45 - 17h45": {
+          "Slot": "Available"
+        }
+      }
+    },
+    "SLT02": {
+      "Friday": {
+        "06h00 - 07h00": {
+          "Slot": "Available"
+        },
+        "07h05 - 08h05": {
+          "Slot": "Available"
+        },
+        "08h10 - 09h10": {
+          "Slot": "Available"
+        },
+        "09h15 - 10h15": {
+          "Slot": "Available"
+        },
+        "10h20 - 11h20": {
+          "Slot": "Available"
+        },
+        "11h25 - 12h25": {
+          "Slot": "Available"
+        },
+        "12h30 - 13h30": {
+          "Slot": "Available"
+        }
+      },
+      "Monday": {
+        "06h00 - 07h00": {
+          "Slot": "Available"
+        },
+        "07h05 - 08h05": {
+          "Slot": "Available"
+        },
+        "08h10 - 09h10": {
+          "Slot": "Available"
+        },
+        "09h15 - 10h15": {
+          "Slot": "Available"
+        },
+        "10h20 - 11h20": {
+          "Slot": "Available"
+        },
+        "11h25 - 12h25": {
+          "Slot": "Available"
+        },
+        "12:30 - 13h30": {
+          "Slot": "Not Available"
+        },
+        "13h35 - 14h35": {
+          "Slot": "Available"
+        },
+        "14h40 - 15h40": {
+          "Slot": "Available"
+        },
+        "15h45 - 16h45": {
+          "Slot": "Available"
+        },
+        "16h50 - 17h50": {
+          "Slot": "Available"
+        }
+      },
+      "Saturday": {
+        "06h00 - 07h00": {
+          "Slot": "Available"
+        },
+        "07h05 - 08h05": {
+          "Slot": "Available"
+        },
+        "08h10 - 09h10": {
+          "Slot": "Available"
+        },
+        "09h15 - 10h15": {
+          "Slot": "Available"
+        },
+        "10h20 - 11h20": {
+          "Slot": "Available"
+        },
+        "11h25 - 12h25": {
+          "Slot": "Available"
+        },
+        "12h30 - 13h30": {
+          "Slot": "Available"
+        }
+      },
+      "Thursday": {
+        "06h00 - 07h00": {
+          "Slot": "Available"
+        },
+        "07h05 - 08h05": {
+          "Slot": "Available"
+        },
+        "08h10 - 09h10": {
+          "Slot": "Available"
+        },
+        "09h15 - 10h15": {
+          "Slot": "Available"
+        },
+        "10h20 - 11h20": {
+          "Slot": "Available"
+        },
+        "11h25 - 12h25": {
+          "Slot": "Available"
+        },
+        "12h30 - 13h30": {
+          "Slot": "Not Available"
+        },
+        "13h35 - 14h35": {
+          "Slot": "Available"
+        },
+        "14h40 - 15h40": {
+          "Slot": "Available"
+        },
+        "15h45 - 16h45": {
+          "Slot": "Available"
+        },
+        "16h45 - 17h50": {
+          "Slot": "Available"
+        }
+      },
+      "Tuesday": {
+        "06h00 - 07h00": {
+          "Slot": "Available"
+        },
+        "07h05 - 08h05": {
+          "Slot": "Available"
+        },
+        "08h10 - 09h10": {
+          "Slot": "Available"
+        },
+        "09h15 - 10h15": {
+          "Slot": "Available"
+        },
+        "10h20 - 11h20": {
+          "Slot": "Available"
+        },
+        "11h25 - 12h25": {
+          "Slot": "Available"
+        },
+        "12h30 - 13h30": {
+          "Slot": "Not Available"
+        },
+        "13h35 - 14h35": {
+          "Slot": "Available"
+        },
+        "14h40 - 15h40": {
+          "Slot": "Available"
+        },
+        "15h45 - 16h45": {
+          "Slot": "Available"
+        },
+        "16h50 - 17h50": {
+          "Slot": "Available"
+        }
+      },
+      "Wednesday": {
+        "06h00 - 07h00": {
+          "Slot": "Available"
+        },
+        "07h05 - 08h05": {
+          "Slot": "Available"
+        },
+        "08h10 - 09h10": {
+          "Slot": "Available"
+        },
+        "09h15 - 10h15": {
+          "Slot": "Available"
+        },
+        "10h20 - 11h20": {
+          "Slot": "Available"
+        },
+        "11h25 - 12h25": {
+          "Slot": "Available"
+        },
+        "12h30 - 13h30": {
+          "Slot": "Not Available"
+        },
+        "13h35 - 14h35": {
+          "Slot": "Available"
+        },
+        "14h40 - 15h40": {
+          "Slot": "Available"
+        },
+        "15h45 - 16h45": {
+          "Slot": "Available"
+        },
+        "16h50 - 17h50": {
+          "Slot": "Available"
+        }
+      }
+    },
+    "SLT03": {
+      "Friday": {
+        "09h10 - 10h10": {
+          "Slot": "Available"
+        },
+        "10h15 - 11h15": {
+          "Slot": "Available"
+        },
+        "11h20 - 12h20": {
+          "Slot": "Available"
+        },
+        "12h25 - 13h25": {
+          "Slot": "Available"
+        },
+        "13h30 - 14h30": {
+          "Slot": "Available"
+        },
+        "14h35 - 15h35": {
+          "Slot": "Available"
+        },
+        "15h40 - 16h40": {
+          "Slot": "Available"
+        }
+      },
+      "Monday": {
+        "09h10 - 10h10": {
+          "Slot": "Available"
+        },
+        "10h15 - 11h15": {
+          "Slot": "Available"
+        },
+        "11h20 - 12h20": {
+          "Slot": "Available"
+        },
+        "12h25 - 13h25": {
+          "Slot": "Available"
+        },
+        "13h30 - 14h30": {
+          "Slot": "Available"
+        },
+        "14h35 - 15h35": {
+          "Slot": "Available"
+        },
+        "15h40 - 16h40": {
+          "Slot": "Available"
+        },
+        "16h45 - 17h45": {
+          "Slot": "Available"
+        },
+        "17h50 - 18h50": {
+          "Slot": "Not Available"
+        }
+      },
+      "Thursday": {
+        "09h10 - 10h10": {
+          "Slot": "Available"
+        },
+        "10h15 - 11h15": {
+          "Slot": "Available"
+        },
+        "11h20 - 12h20": {
+          "Slot": "Available"
+        },
+        "12h25 - 13h35": {
+          "Slot": "Available"
+        },
+        "13h30 - 14h30": {
+          "Slot": "Available"
+        },
+        "14h35 - 15h35": {
+          "Slot": "Available"
+        },
+        "15h40 - 16h40": {
+          "Slot": "Available"
+        },
+        "16h45 - 17h45": {
+          "Slot": "Available"
+        },
+        "17h50 - 18h50": {
+          "Slot": "Available"
+        }
+      },
+      "Tuesday": {
+        "09h10 - 10h10": {
+          "Slot": "Available"
+        },
+        "10h15 - 11h15": {
+          "Slot": "Available"
+        },
+        "11h20 - 12h20": {
+          "Slot": "Available"
+        },
+        "12h25 - 13h25": {
+          "Slot": "Available"
+        },
+        "13h30 - 14h30": {
+          "Slot": "Available"
+        },
+        "14h35 - 15h35": {
+          "Slot": "Available"
+        },
+        "15h40 - 16h40": {
+          "Slot": "Available"
+        },
+        "16h45 - 17h45": {
+          "Slot": "Available"
+        },
+        "17h50 - 18h50": {
+          "Slot": "Available"
+        }
+      },
+      "Wednesday": {
+        "09h10 - 10h10": {
+          "Slot": "Available"
+        },
+        "10h15 - 11h15": {
+          "Slot": "Available"
+        },
+        "11h20 - 12h20": {
+          "Slot": "Available"
+        },
+        "12h25 - 13h25": {
+          "Slot": "Not Available"
+        },
+        "13h30 - 14h30": {
+          "Slot": "Available"
+        },
+        "14h35 - 15h35": {
+          "Slot": "Available"
+        },
+        "15h40 - 16h40": {
+          "Slot": "Available"
+        },
+        "16h45 - 17h45": {
+          "Slot": "Available"
+        },
+        "17h50 - 18h50": {
+          "Slot": "Available"
+        }
+      }
+    },
+    "SLT04": {
+      "Monday": {
+        "09h00 - 09h30": {
+          "Slot": "Available"
+        },
+        "09h35 - 10h05": {
+          "Slot": "Available"
+        },
+        "10h10 - 10h40": {
+          "Slot": "Available"
+        },
+        "10h45 - 11h15": {
+          "Slot": "Available"
+        },
+        "11h20 - 11h50": {
+          "Slot": "Available"
+        },
+        "11h55 - 12h25": {
+          "Slot": "Available"
+        },
+        "12h30 - 13h00": {
+          "Slot": "Not Available"
+        },
+        "13h05 - 13h35": {
+          "Slot": "Available"
+        },
+        "13h40 - 14h10": {
+          "Slot": "Available"
+        },
+        "14h15 - 14h45": {
+          "Slot": "Available"
+        },
+        "14h50 - 15h20": {
+          "Slot": "Available"
+        },
+        "15h25 - 15h55": {
+          "Slot": "Available"
+        },
+        "16h00 - 16h30": {
+          "Slot": "Available"
+        }
+      },
+      "Tuesday": {
+        "09h00 - 09h30": {
+          "Slot": "Available"
+        },
+        "09h35 - 10h05": {
+          "Slot": "Available"
+        },
+        "10h10 - 10h40": {
+          "Slot": "Available"
+        },
+        "10h45 - 11h15": {
+          "Slot": "Available"
+        },
+        "11h20 - 11h50": {
+          "Slot": "Available"
+        },
+        "11h55 - 12h25": {
+          "Slot": "Available"
+        },
+        "12h30 - 13h00": {
+          "Slot": "Not Available"
+        },
+        "13h05 - 13h35": {
+          "Slot": "Not Available"
+        },
+        "13h40 - 14h10": {
+          "Slot": "Available"
+        },
+        "14h15 - 14h45": {
+          "Slot": "Available"
+        },
+        "14h50 - 15h20": {
+          "Slot": "Available"
+        },
+        "15h25 - 15h55": {
+          "Slot": "Available"
+        },
+        "16h00 - 16h30": {
+          "Slot": "Available"
+        }
+      }
+    }
+  }
+}
